@@ -25,7 +25,7 @@ ifstream in;
 	string line = "";
 	
 	if (in.fail()) { // checks if reading the file failed…
-		cout << "Opening file failed" << endl;
+		cerr << "Opening file failed" << endl;
 		return 0;
 	}
 
