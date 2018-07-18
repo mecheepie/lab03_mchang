@@ -10,7 +10,7 @@ using namespace std;
 
 int ducks = 0;
 int animals =-1;
-int nonducks = -1;
+int nonducks = 0;
 
 int main(int argc, char *argv[])
 {
@@ -47,5 +47,6 @@ ifstream in;
   cout << "   Animal count:    " << animals << endl;
   cout << "   Duck count:      " << ducks << endl;
   cout << "   Non duck count:  " << nonducks << endl;
-  return 0;
+  cout << endl;  
+return 0;
 }
